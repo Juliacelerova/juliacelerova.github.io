@@ -161,9 +161,29 @@ ul{
 }
 
 
+/* .carousel{
+    opacity: 0.5s;
+    color: #fff;
+    transition:;
 
 
+}
 
+
+.owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d;
+}
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+section.new-slider .owl-carousel * {
+    box-sizing: border-box;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+} */
 
 
 
