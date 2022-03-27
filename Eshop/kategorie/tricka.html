@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Tricka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+ <!----------------------footer---------------->
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../eshop.html"><img src="../pictures/logo.png" width="125px"></a>
+               </div>
+               <nav>
+                   <ul>
+                       <li><a href="../eshop.html">Domov</a></li>
+                       <li><a href="../kategorie/kategorie.html">Zľavy</a></li>
+                       <li><a href="../kategorie/kategorie.html">Kategórie</a></li>
+                       <li><a href="#">Košík</a></li>
+                       <li><a href="../kategorie/o nas.html">O nás</a></li>
+                   </ul>
+                </nav>
+                <img src="../pictures/loupe (1).png" width="20px" height="20px">
+        </div>
+    </div>
+    </div>
+
+
+<!-------------------------products------------------>
+<div class="small-container">
+    <h2>Tričká</h2>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Zoradiť podľa</a>
+                <ul>
+                    <li ><a href="#">Cena vzostupne</a></li>
+                    <li ><a href="#">Cena zostupne</a></li>
+                    <li ><a href="#">Najnovšie</a></li>
+                    <li><a href="#">Zľavy</a></li>
+
+                </ul>
+            </li>
+
+            <li><a href="#">Tabuľka veľkostí</a>
+                <ul>
+                    <li><a href="#">XS</a></li>
+                    <li><a href="#">S</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">XL</a></li>
+                    <li><a href="#">XXL</a></li>
+                    
+                </ul>
+            </li>
+                <li><a href="#">Podľa farby</a>
+                    <ul>
+                        <li><a href="#">Čierna</a></li>
+                        <li><a href="#">Biela</a></li>
+                        <li><a href="#">Hnedá</a></li>
+                        <li><a href="#">Rúžová</a></li>
+                        <li><a href="#">Fialová</a></li>
+                        <li><a href="#">Modrá</a></li>
+                        <li><a href="#">Červená</a></li>
+                        <li><a href="#">Žltá</a></li>
+                        <li><a href="#">Zelená</a></li>
+                        
+                    </ul></li>
+        </ul>
+    </nav>
+
+    <style>
+        .menu a{
+      display: block;
+      margin: 0px;
+      padding: 25px; 
+      text-decoration: none;
+      font-size: 15.5px;
+      color: rgb(65, 65, 65);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      transition: background-color 0.10s ease;
+      border-radius: 15px;
+      padding: 5px 0px;
+      box-sizing: border-box; 
+     font-weight: bold;
+  }
+  .menu a:hover {
+      color:#e49a90;
+  }
+  
+  .menu ul {
+      display: flex;
+      list-style: none;
+      margin: 5;
+      padding: 0;
+      flex-wrap: wrap;
+  }
+  
+  .menu ul li {
+      width: 20%;
+  }
+  
+  @media (max-width: 600px) {
+      .menu ul li {
+          width: 100%;
+      }
+  }
+  
+  .menu ul li>ul {
+      display: none;
+      position: absolute;
+      background-color: rgb(255, 255, 255);
+      padding: 10px 0px 0px;
+      min-width: 240px;
+      max-height: 428px;
+  }
+  
+  .menu ul li>ul li {
+      width: 100%;
+      text-align: left;
+  }
+  
+  .menu ul li:hover>ul {
+      display: flex;
+      flex-direction: column;
+  }
+ </style> 
+    <div class="row">
+        <div class="col-4">
+            <a href=""><img src="../pictures/tricko1.jpg" width="250px" height="340px"></a>
+            <h4>Béžové tričko s potlačov</h4>
+            <p1>7.99 eur</p1>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="../pictures/tricko2.jpg"  width="250px" height="340px" ></a>
+            <h4>Biele tričko s potlačov</h4>
+            <p>12.99 eur</p>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="../pictures/tricko3.jpg"  width="250px" height="340px"></a>
+            <h4>Biele tričko s potlačov</h4>
+            <p>10.99 eur</p>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="../pictures/tricko4.jpg"  width="250px" height="340px"></a>
+            <h4>Telové tričko s potlačov</h4>
+            <p>11.99 eur</p>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------footer-------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>NEWSLETTER </h3>
+                <p2>Prihláste sa k odberu newslettera, obdržíte -10% na prvý nákup a informácie o najnovších trendoch. </p2>
+                <div class="col-2">
+                    <a href="#" class="btn58">Prihlásiť sa &#8594;</a>
+                    <style>
+                       .btn58{
+                        background-color: rgb(73, 73, 73);
+                        display: inline-block;
+                        color: #fff;
+                        padding: 8px 30px;
+                        margin: 30px 0;
+                        border-radius: 30px; 
+                        transition: 0.5s;
+                       }
+                    </style>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="../pictures/logo_biele.png" width="50px">
+            </div>
+            <div class="footer-col-3">
+                <h3>Predajne</h3>
+                <ul>
+                    <li>Zoznam predajní</li>
+                    <li>Ceny na predajniach</li>
+                    <li>Zmluvné podmienky</li>
+                    <li>Darčekové karty</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Doprava/vrátenie</h3>
+                <ul>
+                    <li>Spôsoby platby</li>
+                    <li>Doprava a doručenie tovaru</li>
+                    <li>Ako reklamovať tovar?</li>
+                    <li>Do 30 dní vrátenie zadarmo</li>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+</body>
+</html>
